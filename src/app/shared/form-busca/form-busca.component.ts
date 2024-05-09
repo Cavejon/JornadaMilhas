@@ -17,4 +17,5 @@ export class FormBuscaComponent {
       width: '50%'
     })
   }
+
 }

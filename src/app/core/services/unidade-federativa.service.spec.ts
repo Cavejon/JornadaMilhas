@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { UnidadesFederaisService } from './unidades-federais.service';
+import { UnidadeFederativaService } from './unidade-federativa';
 
 describe('UnidadesFederaisService', () => {
-  let service: UnidadesFederaisService;
+  let service: UnidadeFederativaService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(UnidadesFederaisService);
+    service = TestBed.inject(UnidadeFederativaService);
   });
 
   it('should be created', () => {
